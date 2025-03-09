@@ -1,5 +1,6 @@
-This Project
 ```
 Random Password Generator
 
 ```
+![Project Sample](Main.png)
+
