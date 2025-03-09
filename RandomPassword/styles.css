@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body  {
+    background-color:   rgb(7, 27, 82);
+}
+.hero {
+    margin: 12%;
+    width:90%;
+    max-width: 700px;
+    color: aliceblue;
+}
+.hero h1 {
+    font-size: 45px;
+    font-weight: 500;
+}
+.hero h1 span {
+    color: rgb(25, 155, 103);
+    border-bottom: 4px solid;
+    padding-bottom: 7px;
+
+}
+.disp {
+    width: 100%;
+    margin-top: 50px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;;
+}
+.disp img {
+    width: 30px;
+    cursor: pointer;
+}
+.disp input {
+    outline: 0;
+    border: 0;
+    font-size: 24px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    background: rgb(25, 155, 103);
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.hero button img {
+    width: 20px; 
+    margin-right: 10px;
+
+}
