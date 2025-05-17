@@ -8,7 +8,7 @@ This collection is a showcase of various beginner-to-advanced projects built usi
 ### 1. Digital Clock ⏰
 A simple, real-time digital clock that displays the current time in hours, minutes, and seconds using JavaScript. The clock updates every second and has a clean UI styled with CSS.
 
-(!Project Sample)(./DigitalClock/Img.png)
+[!Project Sample](./DigitalClock/Img.png)
 
 More projects coming soon...
 
