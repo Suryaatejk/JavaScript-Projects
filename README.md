@@ -13,9 +13,9 @@ A simple, real-time digital clock that displays the current time in hours, minut
 ***
 
 ### 2. [Random Password Generator 🔐]
+A secure password generator that creates a random 12-character password including uppercase, lowercase, digits, and special characters.
 
 ![Project Sample](./RandomPassword/Main.png)
-A secure password generator that creates a random 12-character password including uppercase, lowercase, digits, and special characters.
 
 Stay tuned for more projects!
 
