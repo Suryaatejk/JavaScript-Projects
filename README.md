@@ -19,3 +19,4 @@ A secure password generator that creates a random 12-character password includin
 
 Stay tuned for more projects!
 
+---
