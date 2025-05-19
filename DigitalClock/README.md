@@ -1,7 +1,7 @@
 # ⏰ Digital Clock
 
 This is a **Digital Clock** built using **HTML**, **CSS**, and **JavaScript**.  
-It displays the **current time** in hours, minutes, and seconds format, and updates live every second.
+It displays the **current time** in hours, minutes, and seconds format, and updates live every second..
 
 ## 🛠️ Features
 - Real-time clock display
