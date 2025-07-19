@@ -13,13 +13,13 @@
     position: relative;
     top: 200px;
     margin-bottom: 30px;
-    color: #c4a3a3;
+    color: #f7f3f3;
 }
 
 .container {
     height: 100vh;
     width:100%;
-    background: rgb(26, 21, 21);
+    background:linear-gradient(#213133,#2b384e);
     display:flex;
     justify-content: center; 
     align-items: center;
@@ -61,7 +61,7 @@
 
 #message {
     color: white;
-    bottom:-30px;
+    bottom:-50px;
     position:absolute;
     font-size: 14px;
 

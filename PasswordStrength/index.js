@@ -16,8 +16,13 @@ toggle.addEventListener ('click', () => {
 pass.addEventListener('input' , () => {
     const value=pass.value;
     const len=value.length;
-    const hasLetter= /[a-zA-z]/.test(value);
+    const hasLower=/[a-z]/.test(value);
+    const hasUpper= /[A-z]/.test(value);
     const hasNumber= /\d/.test(value);
+    const hasSpec= /[!@#$%^&*(),.?":{}|<>]/.test(value);
+    const commonpat= [
+        "password","123456","name@123", "admin","qwerty","letminin" , "@123" ,"@456", "@012"
+    ];
 
     if(len>0) {
         msg.style.display ="block";
@@ -25,18 +30,25 @@ pass.addEventListener('input' , () => {
     else {
         msg.style.display="none";
     }
-    if(!hasLetter || !hasNumber) {
-        diff.innerHTML="should contain both letters and numbers.";
+
+    if(commonpat.some(pattern => value.toLowerCase().includes(pattern))) {
+        diff.innerHTML="is too simple."
         pass.style.borderColor="red";
         msg.style.color="red";
     }
 
-    else if(len<4) {
+    else if(!(hasUpper && hasNumber && hasLower && hasSpec)) {
+        diff.innerHTML="should contain both letters and numbers and special characters.";
+        pass.style.borderColor="red";
+        msg.style.color="red";
+    }
+
+    else if(len<6) {
         diff.innerHTML= "weak.";
         pass.style.borderColor="red";
         msg.style.color="red";
     }
-    else if (len>=4 && len<=8) {
+    else if (len>=6 && len<=10) {
         diff.innerHTML= "medium.";
         pass.style.borderColor="orange";  
         msg.style.color="orange";
